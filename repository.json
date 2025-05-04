@@ -23,9 +23,3 @@
     }
   }
 }
-
-      "host_network": true,
-      "map": ["config:rw","data:rw","ssl:rw"]
-    }
-  }
-}
