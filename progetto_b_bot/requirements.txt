@@ -1,0 +1,9 @@
+
+pandas
+numpy
+requests
+flask
+python-telegram-bot
+ta
+backtrader
+python-dotenv
