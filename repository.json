@@ -1,8 +1,8 @@
 {
   "name": "Progetto B Bot Add-on Repo",
-  "url": "https://github.com/TUO-UTENTE/progetto_b_bot",
-  "maintainer": "Il Tuo Nome",
-  "homepage": "https://github.com/TUO-UTENTE/progetto_b_bot",
+  "url": "https://github.com/cocolino83/addon-progettob",
+  "maintainer": "cocolino83",
+  "homepage": "https://github.com/cocolino83/addon-progettob",
   "versions": {
     "progetto_b_bot": "1.0.0"
   },
@@ -18,6 +18,12 @@
       "options": {},
       "schema": {},
       "image": null,
+      "host_network": true,
+      "map": ["config:rw","data:rw","ssl:rw"]
+    }
+  }
+}
+
       "host_network": true,
       "map": ["config:rw","data:rw","ssl:rw"]
     }
