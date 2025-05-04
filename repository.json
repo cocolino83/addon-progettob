@@ -1,0 +1,23 @@
+{
+  "name": "Progetto B Bot Add-on Repo",
+  "url": "https://github.com/tuo-utente/progetto_b_bot",
+  "maintainer": "Il Tuo Nome",
+  "homepage": "https://github.com/tuo-utente/progetto_b_bot",
+  "versions": {
+    "progetto_b_bot": "1.0.0"
+  },
+  "addons": {
+    "progetto_b_bot": {
+      "name": "Progetto B – Trading Bot",
+      "version": "1.0.0",
+      "slug": "progetto_b_bot",
+      "description": "Bot di trading cripto avanzato con AI e integrazione Home Assistant",
+      "arch": ["amd64", "armv7", "aarch64"],
+      "startup": "application",
+      "boot": "auto",
+      "image": null,
+      "host_network": true,
+      "map": ["config:rw", "data:rw", "ssl:rw"]
+    }
+  }
+}
